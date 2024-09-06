@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cleaner App</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+	<div class="mobile-container">
+		<div class="header">
+			<span class="material-symbols-outlined">
+				arrow_back
+			</span>
+			<span class="material-symbols-outlined">
+				settings
+			</span>
+		</div>
+		<div class="scrollable-container">
+			<span class="cleaner-label">Cleaner</span>
+			<div class="circle-container">
+				<div class="circle">
+					<div class="trash-size">
+						<span id="total-size">
+							321
+							<span class="size-unit">MB</span>
+						</span>
+						<span class="trash-size-label">Trash Size</span>
+					</div>
+				</div>
+			</div>
+			<div class="file-categories">
+				<div class="file-category" data-size="298">
+					<div class="main-category">
+						<span class="file-name">
+							Cache files
+							<span class="material-symbols-outlined toggle">
+								arrow_drop_down
+							</span>
+						</span>
+						<span class="file-info">
+							<span class="size">298 MB</span>
+							<input type="checkbox" class="checker checker-sum" id="cache-files-1" checked>
+							<label for="cache-files-1" class="checkbox-label">
+								<i class="fas fa-check"></i>
+							</label>
+						</span>
+					</div>
+					<div class="details-panel">
+						<div class="app-detail">
+							<div class="app-info">
+								<img src="assets/facebook.png" class="app-icon" />
+								<div>
+									<span class="app-name">Facebook</span>
+									<span class="app-clean">Clean</span>
+								</div>
+							</div>
+							<div class="app-size-check">
+								<span class="size">102 MB</span>
+								<input type="checkbox" class="checker app-checker" id="app-facebook-1" checked disabled>
+								<label for="app-facebook-1" class="checkbox-label">
+									<i class="fas fa-check"></i>
+								</label>
+							</div>
+						</div>
+						<div class="app-detail">
+							<div class="app-info">
+								<img src="assets/youtube.png" class="app-icon" />
+								<div>
+									<span class="app-name">Youtube</span>
+									<span class="app-clean">Clean</span>
+								</div>
+							</div>
+							<div class="app-size-check">
+								<span class="size">196 MB</span>
+								<input type="checkbox" class="checker app-checker" id="app-youtube-1" checked disabled>
+								<label for="app-youtube-1" class="checkbox-label">
+									<i class="fas fa-check"></i>
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="file-category" data-size="0">
+					<div class="main-category">
+						<span class="file-name">
+							Obsolete files
+							<span class="material-symbols-outlined toggle">
+								arrow_drop_down
+							</span>
+						</span>
+						<span class="file-info">
+							<span class="size">0 B</span>
+							<input type="checkbox" class="checker checker-sum" id="obsolete_files">
+							<label for="obsolete_files" class="checkbox-label">
+								<i class="fas fa-check"></i>
+							</label>
+						</span>
+					</div>
+				</div>
+				<div class="file-category" data-size="0">
+					<div class="main-category">
+						<span class="file-name">
+							Packages
+							<span class="material-symbols-outlined toggle">
+								arrow_drop_down
+							</span>
+						</span>
+						<span class="file-info">
+							<span class="size">0 B</span>
+							<input type="checkbox" class="checker checker-sum" id="Packages">
+							<label for="Packages" class="checkbox-label">
+								<i class="fas fa-check"></i>
+							</label>
+						</span>
+					</div>
+				</div>
+				<div class="file-category" data-size="0">
+					<div class="main-category">
+						<span class="file-name">
+							Residuals
+							<span class="material-symbols-outlined toggle">
+								arrow_drop_down
+							</span>
+						</span>
+						<span class="file-info">
+							<span class="size">0 B</span>
+							<input type="checkbox" class="checker checker-sum" id="Residuals">
+							<label for="Residuals" class="checkbox-label">
+								<i class="fas fa-check"></i>
+							</label>
+						</span>
+					</div>
+				</div>
+				<div class="file-category" data-size="23">
+					<div class="main-category">
+						<span class="file-name">
+							Memory
+							<span class="material-symbols-outlined toggle">
+								arrow_drop_down
+							</span>
+						</span>
+						<span class="file-info">
+							<span class="size">23 MB</span>
+							<input type="checkbox" class="checker checker-sum" id="Memory" checked>
+							<label for="Memory" class="checkbox-label">
+								<i class="fas fa-check"></i>
+							</label>
+						</span>
+					</div>
+					<div class="details-panel">
+						<div class="app-detail">
+							<div class="app-info">
+								<img src="assets/facebook.png" class="app-icon" />
+								<div>
+									<span class="app-name">Facebook</span>
+									<span class="app-clean">Clean</span>
+								</div>
+							</div>
+							<div class="app-size-check">
+								<span class="size">9 MB</span>
+								<input type="checkbox" class="checker app-checker" id="app-facebook-2" checked disabled>
+								<label for="app-facebook-2" class="checkbox-label">
+									<i class="fas fa-check"></i>
+								</label>
+							</div>
+						</div>
+						<div class="app-detail">
+							<div class="app-info">
+								<img src="assets/youtube.png" class="app-icon" />
+								<div>
+									<span class="app-name">Youtube</span>
+									<span class="app-clean">Clean</span>
+								</div>
+							</div>
+							<div class="app-size-check">
+								<span class="size">14 MB</span>
+								<input type="checkbox" class="checker app-checker" id="app-youtube-2" checked disabled>
+								<label for="app-youtube-2" class="checkbox-label">
+									<i class="fas fa-check"></i>
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="cleanup-button">Clean Up 0 Mb</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
